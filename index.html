@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono:wght@700&display=swap"
+    rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ImersãoDev</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <h1 class="page__title">
+        Aluraflix
+      </h1>
+      <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg" class="page-logo"
+        alt="">
+      <p class="page__subtitle">
+        Qual seu filme favorito?
+      </p>
+    </div>
+  </header>
+
+  <main>
+    <div class="form-wrapper">
+      <input type="text" id="film" name="filme" placeholder="Insira o endereço de imagem...">
+      <input type="text" id="name" name="filme" placeholder="Insira o nome do filme...">
+      <button onclick="addFilm()">Adicionar Filme</button>
+    </div>
+
+    <div id="listaFilmes"></div>
+    <!-- <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo"> -->
+  </main>
+  <script src="./script.js"></script>
+</body>
+
+</html>

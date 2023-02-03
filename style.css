@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  background-image: url("https://thumbs.gfycat.com/AridKaleidoscopicBlacklemur-size_restricted.gif");
+  background-color: #000000;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  color: #ffffff;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.page__subtitle {
+  margin-top: 25px;
+  font-size: 30px;
+  font-variant: small-caps;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+/*----------Main----------*/
+
+.form-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-wrapper input {
+  display: block;
+  margin: 0 auto;
+  width: 230px;
+  padding: 10px 15px;
+  border-radius: 30px;
+  background-color: #9932CC;
+  border: none;
+  font-variant: small-caps;
+  color: white;
+  transition: all 0.7s ease 0s;
+}
+
+input::placeholder {
+  color: #FFF8DC;
+
+  text-align: center;
+}
+
+input:hover {
+  transition: all 0.3s ease 0s;
+  width: 260px;
+}
+
+.form-wrapper button {
+  display: block;
+  margin: 15px auto;
+  width: 160px;
+  padding: 15px 15px;
+  border-radius: 15px;
+  background-color: #FF6347;
+  color: #ffff;
+  border: none;
+  font-size: 16px;
+  font-weigth: bold;
+  transition: all 0.7s ease 0s;
+  font-weight: bold;
+}
+
+button:hover{
+  cursor:pointer;
+  opacity: 0.8;
+  width: 175px;
+  transition: all 0.3s ease 0s;
+}
